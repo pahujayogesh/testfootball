@@ -1,0 +1,47 @@
+.matches-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .match {
+    display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        /* Adjust border radius */
+        padding: 20px;
+        /* Adjust padding */
+        margin-bottom: 20px;
+        /* Adjust margin between matches */
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px; /* Adjust margin between team logo and name */
+  }
+  
+  .team-logo {
+    width: 80px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .versus {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold;
+    margin: 0 10px; /* Adjust margin between "VS" and teams */
+  }
+  
+  @media (max-width: 768px) {
+    .match {
+      flex-direction: column; /* Change to column layout on smaller screens */
+    }
+  
+    .versus {
+      margin: 10px 0; /* Adjust margin between "VS" and teams for smaller screens */
+    }
+  }
