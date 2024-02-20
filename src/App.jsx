@@ -18,6 +18,7 @@ function App() {
   return (
     <Router>
       <Nav/>
+	  <Hero/>
       <Routes>
         <Route path="/" element={<Hero/>} />
         <Route path="/Main" element={<Main/>} />
