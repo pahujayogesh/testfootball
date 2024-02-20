@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/testfootball/static/css/main.6fee0c3b.css",
+    "main.js": "/testfootball/static/js/main.9158af6e.js",
+    "static/media/Footballbackground.jpg": "/testfootball/static/media/Footballbackground.e9617b44a11538c87760.jpg",
+    "static/media/RM.png": "/testfootball/static/media/RM.d339751a6a85dbbe5cd4.png",
+    "static/media/BARCA.png": "/testfootball/static/media/BARCA.094a3486c19a27e4b022.png",
+    "static/media/MU.png": "/testfootball/static/media/MU.174d6317efee7df075c2.png",
+    "static/media/tom_brady 1.png": "/testfootball/static/media/tom_brady 1.a9159a27c9be759cc066.png",
+    "index.html": "/testfootball/index.html",
+    "main.6fee0c3b.css.map": "/testfootball/static/css/main.6fee0c3b.css.map",
+    "main.9158af6e.js.map": "/testfootball/static/js/main.9158af6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fee0c3b.css",
+    "static/js/main.9158af6e.js"
+  ]
+}
