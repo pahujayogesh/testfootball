@@ -1,5 +1,3 @@
-// import Nav from "./components/Nav";
-// import SelectOption from "./components/Selectoption";
 import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import "./tailwind.css";
 import Main from "./components/Main.jsx";
@@ -18,8 +16,8 @@ function App() {
   return (
     <Router>
       <Nav/>
-	  <Hero/>
       <Routes>
+		<Route index element={<Hero/>} />
         <Route path="/" element={<Hero/>} />
         <Route path="/Main" element={<Main/>} />
         <Route path="/Matches" element={<Matches/>} />
@@ -29,28 +27,6 @@ function App() {
         <Footer/>
     </Router>
 
-
-    // <>
-    // <Nav/>
-    // <Hero/>
-    // <Routes>
-    //   <Route path='/Main' element={<Main/>}/>
-    // </Routes>
-    // </>
-    
-
-    // <Router>
-		// 	<Hero />
-      
-			
-		// 	<Footer />
-		// </Router>
-
-    // <>
-    // <Hero/>
-    //   {/* <Main/> */}
-    //   <Footer/>
-    // </>
   );
 }
 
