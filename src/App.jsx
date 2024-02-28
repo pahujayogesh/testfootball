@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-		<Route path="/testfootball" element={<Hero/>} />
+
         <Route path="/" element={<Hero/>} />
         <Route path="/Main" element={<Main/>} />
         <Route path="/Matches" element={<Matches/>} />
